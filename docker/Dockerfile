@@ -15,6 +15,6 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # rosdep の初期化
-RUN rosdep init && rosdep update
+RUN rosdep update
 
 
